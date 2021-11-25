@@ -1,0 +1,32 @@
+
+.logo {
+  height: 100px;
+}
+
+.sidebar {
+	float: left;
+	/* The problem with using percent is that it'll change as you resize your screen too. I suggest usingg pixels instead so it's fixed, like */
+	width: 144px;
+	margin: 3px 1.5em 10px 1.3em;
+	background-color: #a50104;
+	position: absolute;
+	color: rgb(218, 231, 233);
+}
+
+/*  This selects links inside your sidebar :)  */
+.sidebar a:link, .sidebar a:visited{
+	color: rgb(218, 231, 233);
+	border: 1px solid blue;
+}
+
+.main {
+margin: 0 0 0 11em;
+}
+
+.article {
+padding: 1.25em 1.5em 1.5em 1.5em;
+border: 1px solid #d4b528;
+background: white;
+line-height: 1.6;
+font-size: 0.9em;
+}
